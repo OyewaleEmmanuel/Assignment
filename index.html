@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio Webpage</title>
+    <!--link to my external css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+     <header>
+        <h1> Oyewale Emmanuel</h1>
+        <p> Aspiring Software Engineer </p>
+     </header>
+
+     <!--Navigations-->
+     <nav>
+        <a href="#about-me"> About Me </a>
+        <a href="#Projects"> Projects </a>
+        <a href="#Contact"> Contact </a>
+     </nav>
+
+     <!--Main content-->
+     <main>
+    <div class="flex-container">
+        <!--About Me section-->
+        <section id="about-me">
+            <h2> About Me </h2>
+            <div>
+                <p> Hello World! I'm passionate about web development and love creating functional and visually appealing websites. In my free time, i enjoy, i enjoy listening to Music, watching football, watching movies and creating contents.</p>
+                <img src="./img/programmer.jpg" alt="A photo of me" class="project-img">
+            </div>
+        </section>
+
+        <!--projects section-->
+        <section id="Projects">
+            <h2> Projects </h2>
+            <div>
+                <h3> Project 1: Portfolio website </h3>
+                <p> A personal portfolio website to showcase my skills and projects. </p>
+                <ul>
+                    <li> Used HTML and CSS </li>
+                    <li> Responsive designs </li>
+                </ul>
+            </div>
+            <div>
+                <h3> Project 2: Todo App </h3>
+                <p> A simple web app for managing tasks </p>
+                <ul>
+                    <li> Implemented with Javascript </li>
+                    <li> Interactive user interface </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section id="Contact">
+            <h2> Contact </h2>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </div>
+     </main>
+
+     <!--footer-->
+     <footer>
+        <p> &copy; 2024 Emmanuel Adeyemi. All rights reserved. </p>
+     </footer>
+</body>
+</html>
